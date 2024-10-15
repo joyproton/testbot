@@ -1,3 +1,7 @@
+<?php
+/**
+ * Полезный чат-бот c отчетами для bitrix24
+ */
 $appsConfig     = array();
 $configFileName = '/config_' . trim(str_replace('.', '_', $_REQUEST['auth']['domain'])) . '.php';
 if (file_exists(__DIR__ . $configFileName)) {
